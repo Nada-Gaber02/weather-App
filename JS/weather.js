@@ -4,7 +4,7 @@ let contactNav = document.querySelector('.contact')
 let weatherData;
 
 async function getApiData(searchKey){
-    let response = await fetch(`http://api.weatherapi.com/v1/forecast.json?key=b8c3353fd2c244178ac93741250105&q=${searchKey}&days=3`)
+    let response = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=b8c3353fd2c244178ac93741250105&q=${searchKey}&days=3`)
     let data = await response.json()
     return data
 }
