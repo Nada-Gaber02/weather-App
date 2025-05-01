@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Alegreya:ital,wght@0,400..900;1,400..900&family=Amatic+SC:wght@400;700&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Bree+Serif&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans+Caption:wght@400;700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sigmar&display=swap');
+
+html{
+    font-family: "Open Sans", sans-serif;
+    background-color: var(--mainColor);
+}
+:root{
+    --mainColor : #1E202B;
+    --secondColor : #009AD8;
+    --cardColor : #323544;
+    --footer-MiddleCard-Color : #262936;
+    --cardBarColor : #2D303D;
+    --middleCardBarColor: #222530;
+}
+.container-fluid{
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+}
+.container{
+    width: 80% !important;
+    margin: auto;
+}
+.weatherPage{
+    background-color: var(--mainColor);
+}
+.nav-logo .nav-brand .brand-name1{
+    text-decoration: none !important;
+    font-weight: 700;
+    color: white !important;
+}
+.nav-logo .nav-brand .brand-name2{
+    text-decoration: none !important;
+    color: #BFC1C8 !important;
+    font-weight: 300;
+    font-size: 10px;
+}
+.nav-item .active{
+    color: var(--secondColor) !important;
+    font-size: 14px;
+    font-weight: 400;
+    border: 3px solid var(--secondColor) ;
+    border-radius: 20px;
+}
+.nav-link{
+    color: white !important;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0 20px !important;
+    border: 3px solid var(--mainColor) ;
+    border-radius: 20px;
+}
+.nav-item:hover .nav-link{
+    border: 3px solid var(--secondColor) ;
+    border-radius: 20px;
+    color: var(--secondColor) !important;
+}
+.headContent{
+    font-size: 13px;
+    width: 95%;
+    background-color: var(--footer-MiddleCard-Color) ;
+    border-color: var(--mainColor) ;
+    border-radius: 50px;
+    padding: 20px;
+}
+.headContent a {
+    color: #BFC1C8;
+    text-decoration: none;
+    font-weight: 300;
+}
+.box{
+    background-color: var(--middleCardBarColor);
+    border-radius: 10px;
+}
+.margin{
+    margin-top: 30%;
+}
+.box .marker{
+    width: 15px;
+    height: 25px;
+}
+.box .phone{
+    width: 20px;
+    height: 30px;
+}
+.box .envelope{
+    width: 20px;
+    height: 20px;
+}
+.contentHead h2{
+    font-size: 36px;
+    color: white;
+    font-weight: 300;
+}
+.contentHead p{
+    font-size: 14px;
+    color: #BFC1C8;
+    font-weight: 300;
+    width: 80%;
+}
+.form .form-control{
+    background-color: var(--mainColor) !important;
+    box-shadow: none !important;
+    border-radius: 50px !important;
+    border: 1px solid gray !important;
+    padding: 12px;
+}
+.form2 .form-control{
+    background-color: var(--mainColor) !important;
+    box-shadow: none !important;
+    border-radius: 50px !important;
+    border: 1px solid gray !important;
+    padding: 12px;
+}
+textarea.form-control{
+    background-color: var(--mainColor) !important;
+    box-shadow: none !important;
+    border-radius: 30px !important;
+    border: 1px solid gray !important;
+}
+textarea.form-control::placeholder{
+    color: gray !important;
+}
+.form .form-control::placeholder{
+    color: gray !important;
+}
+.form2 .form-control::placeholder{
+    color: gray !important;
+}
+.form .form-control:focus{
+    border: 1px solid var(--secondColor) !important;
+    border-radius: 30px;
+    color: white !important;
+}
+.form2 .form-control:focus{
+    border: 1px solid var(--secondColor) !important;
+    border-radius: 30px;
+    color: white !important;
+}
+.form .form-control:hover{
+    border: 1px solid var(--secondColor) !important;
+}
+.form2 .form-control:hover{
+    border: 1px solid var(--secondColor) !important;
+}
+.text-area textarea.form-control:hover{
+    border: 1px solid var(--secondColor) !important;
+}
+.submit{
+    background-color: var(--secondColor);
+    padding: 5px 15px 5px;
+    border: 1px solid var(--secondColor);
+    border-radius: 20px;
+    color: white;
+}
+footer{
+    background-color: var(--footer-MiddleCard-Color);
+}
+.links{
+    font-size:20px;
+    
+}
+.links a{
+    text-align: center;
+    color: var(--secondColor) !important;
+    background-color:  var(--mainColor) !important;
+    padding: 10px;
+    width: 12%;
+    height: 12%;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+.links a:hover{
+    color: white !important;
+    background-color: var(--secondColor) !important;
+}
+.footer-text p{
+    font-size: 14px;
+    color: #BFC1C8;
+    font-weight: 300;
+}
+.input-group{
+    width: 95%;
+}
+.input-group>.form-control{
+    box-shadow: none !important;
+    background-color: var(--mainColor) !important;
+    border-color: var(--mainColor) !important;
+    border-radius: 50px;
+}
+.input-group>.form-control:focus{
+    color: white !important;
+}
+.input-group>.form-control::placeholder{
+    color: gray ;
+    font-size: 14px;
+}
+.input-group .buttonn{
+    background-color: var(--mainColor);
+    border-radius: 50px;
+    padding: 5px;
+}
+.input-group .btn2{
+    background-color: var(--secondColor);
+    border: 1px solid var(--secondColor);
+    border-radius: 40px;
+    padding: 10px 25px 10px;
+    color: white;
+}

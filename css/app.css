@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Alegreya:ital,wght@0,400..900;1,400..900&family=Amatic+SC:wght@400;700&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Bree+Serif&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans+Caption:wght@400;700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sigmar&display=swap');
+
+html{
+    font-family: "Open Sans", sans-serif;
+}
+:root{
+    --mainColor : #1E202B;
+    --secondColor : #009AD8;
+    --cardColor : #323544;
+    --footer-MiddleCard-Color : #262936;
+    --cardBarColor : #2D303D;
+    --middleCardBarColor: #222530;
+}
+.container-fluid{
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+}
+.container{
+    width: 80% !important;
+    margin: auto;
+}
+.weatherPage{
+    background-color: var(--mainColor);
+}
+.nav-logo .nav-brand .brand-name1{
+    text-decoration: none !important;
+    font-weight: 700;
+    color: white !important;
+}
+.nav-logo .nav-brand .brand-name2{
+    text-decoration: none !important;
+    color: #BFC1C8 !important;
+    font-weight: 300;
+    font-size: 10px;
+}
+.nav-item .active{
+    color: var(--secondColor) !important;
+    font-size: 14px;
+    font-weight: 400;
+    border: 3px solid var(--secondColor) ;
+    border-radius: 20px;
+}
+.nav-link{
+    color: white !important;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0 20px !important;
+    border: 3px solid var(--mainColor) ;
+    border-radius: 20px;
+}
+.nav-item:hover .nav-link{
+    border: 3px solid var(--secondColor) ;
+    border-radius: 20px;
+    color: var(--secondColor) !important;
+}
+.back-img{
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+}
+.input-group{
+    width: 95%;
+}
+.input-group>.form-control{
+    box-shadow: none !important;
+    background-color: var(--mainColor) !important;
+    border-color: var(--mainColor) !important;
+    border-radius: 50px;
+}
+.input-group>.form-control:focus{
+    color: white !important;
+}
+.input-group>.form-control::placeholder{
+    color: gray ;
+    font-size: 14px;
+}
+.input-group .buttonn{
+    background-color: var(--mainColor);
+    border-radius: 50px;
+    padding: 5px;
+}
+.input-group .btn{
+    background-color: var(--secondColor);
+    border: 1px solid var(--secondColor);
+    border-radius: 40px;
+    padding: 10px 45px 10px;
+    color: white;
+}
+.input-group .btn2{
+    background-color: var(--secondColor);
+    border: 1px solid var(--secondColor);
+    border-radius: 40px;
+    padding: 10px 25px 10px;
+    color: white;
+}
+.weatherCard{
+    border-radius: 10px;
+}
+.card-header{
+    background-color: var(--cardBarColor);
+    font-size: 14px;
+    color: #BFC1C8;
+}
+.card-body{
+    background-color: var(--cardColor);
+    padding: 30px;
+}
+.card-body .p1{
+    font-size: 18px;
+    color: #BFC1C8;
+}
+.card-body .p2{
+    font-size: 90px;
+    color: white;
+    font-weight: 700;
+}
+.card-body .p3{
+    color: var(--secondColor);
+    font-size: 14px;
+}
+.card-body .footer img{
+    width: 8%;
+    height: 10%;
+}
+.footer p{
+    color: white;
+}
+.card-header2{
+    background-color: var(--footer-MiddleCard-Color);
+    padding-left: 0;
+    padding-right: 0;
+}
+.card-header2 .content {
+    background-color: var(--middleCardBarColor);
+    font-size: 14px;
+    color: #BFC1C8;
+}
+.card-body2 .p4{
+    font-size: 24px;
+    color: white;
+    font-weight: 700;
+}
+.card-body2 span{
+    color: #BFC1C8;
+    font-weight: 300;
+}
+.card-body2 .p5{
+    color: var(--secondColor);
+    font-size: 14px;
+    font-weight: 300;
+}
+.card-header3{
+    background-color: var(--cardColor);
+    padding-left: 0;
+    padding-right: 0;
+}
+.card-header3 .content{
+    background-color: var(--cardBarColor);
+    font-size: 14px;
+    color: #BFC1C8;
+}
+.card-body3{
+    background-color: var(--cardColor);
+}
+.card-body3 .p4{
+    font-size: 24px;
+    color: white;
+    font-weight: 700;
+}
+.card-body3 span{
+    color: #BFC1C8;
+    font-weight: 300;
+}
+.card-body3 .p5{
+    color: var(--secondColor);
+    font-size: 14px;
+    font-weight: 300;
+}
+footer{
+    background-color: var(--footer-MiddleCard-Color);
+}
+.links{
+    font-size:20px;
+    
+}
+.links a{
+    text-align: center;
+    color: var(--secondColor) !important;
+    background-color:  var(--mainColor) !important;
+    padding: 10px;
+    width: 12%;
+    height: 12%;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+.links a:hover{
+    color: white !important;
+    background-color: var(--secondColor) !important;
+}
+.footer-text p{
+    font-size: 14px;
+    color: #BFC1C8;
+    font-weight: 300;
+}
