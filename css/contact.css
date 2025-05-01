@@ -54,6 +54,9 @@ html{
     border-radius: 20px;
     color: var(--secondColor) !important;
 }
+.navbar-toggler-icon{
+    background-color:  white !important;
+}
 .headContent{
     font-size: 13px;
     width: 95%;

@@ -53,6 +53,9 @@ html{
     border-radius: 20px;
     color: var(--secondColor) !important;
 }
+.navbar-toggler-icon{
+    background-color:  white !important;
+}
 .back-img{
     background-image: url(../images/banner.png);
     background-repeat: no-repeat;
@@ -102,7 +105,7 @@ html{
 }
 .card-body{
     background-color: var(--cardColor);
-    padding: 30px;
+    padding: 20px;
 }
 .card-body .p1{
     font-size: 18px;
@@ -180,15 +183,14 @@ footer{
 }
 .links{
     font-size:20px;
-    
 }
 .links a{
     text-align: center;
     color: var(--secondColor) !important;
     background-color:  var(--mainColor) !important;
     padding: 10px;
-    width: 12%;
-    height: 12%;
+    width: 14%;
+    height: 14%;
     border-radius: 50%;
     transition: all 0.5s;
 }
@@ -200,4 +202,8 @@ footer{
     font-size: 14px;
     color: #BFC1C8;
     font-weight: 300;
+}
+
+@media screen and (max-width: 768px){
+    
 }
